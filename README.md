@@ -1,4 +1,4 @@
-# Official implementation of PBFM — Physics-Based Flow Matching
+## [ICLR 2026] Official implementation of PBFM - Physics-Based Flow Matching
 
 <div align="center">
     
