@@ -17,7 +17,7 @@
 ***Key contributions:***
 * _Physics-Based Flow Matching (PBFM)_: Proposes a novel framework for integrating physical constraints into flow matching objectives, leveraging conflict-free gradient updates to minimize PDE and algebraic residuals simultaneously without manual weight tuning.
 * _Mitigation of Jensen’s Gap via Unrolling_: Demonstrates that unrolled training trajectories effectively bridge the gap between training objectives and inference-time performance, yielding superior physical consistency without increasing the computational overhead of the final sampler.
-* _Analysis of additional Gaussian Noise_: Provides a theoretical and empirical analysis of the role of Gaussian noise in constrained flow matching, demonstrating how the choice of noise floor $(\sigma_{\text{min}}​)$ affects the trade-off between distributional accuracy and the precision of physical constraints.
+* _Analysis of additional Gaussian Noise_: Provides a theoretical and empirical analysis of the role of Gaussian noise in constrained flow matching, demonstrating how the choice of noise floor ($\sigma_{\min}​$) affects the trade-off between distributional accuracy and the precision of physical constraints.
 * _Stochastic vs. Deterministic Sampling Analysis_: Provides a formal analysis of the physics-vs-distribution trade-off, establishing the advantages of stochastic sampling and Gaussian noise injection for maintaining distributional fidelity under rigid physical priors.
 * _Seamless Integration_: Offers a straightforward implementation strategy that can be integrated into existing flow matching pipelines, consistently improving both distributional accuracy and physical validity across multiple generative tasks.
 
